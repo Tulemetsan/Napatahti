@@ -1,0 +1,9 @@
+----------------------------------------------------------------------------------------------------------------
+act_var:
+    2 cur_db, 3 cur_apg, 4 acc, 5 bit 1/2/3/4 zp/deg/spd/csp enb, 8 acf b1/b2 ast/ext, 9 cell_enb,
+    11 core_calc_meth, 12 stb_inv, 14 core_cos_hor_swi, 15 core_det_st, 16 stb_calc_meth, 17 esd_show_str,
+    19 moon_day_meth, 20 cst_det_st, 21 ash_det_st, 22 fix_star_enb, 24 app_state,
+    25 lang, others indexes for data exchanging
+
+rep_var: technical data for map positioning
+----------------------------------------------------------------------------------------------------------------
