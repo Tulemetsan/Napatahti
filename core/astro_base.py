@@ -217,7 +217,7 @@ class AstroBaseObject:
             cur = self.moon_j[1]
             self.moon_d[0][0] = 0
             for i in range(2, 31):  # rsmi 897 rise, 898 set
-                nxt = swe.rise_trans(cur + 0.05, 1, lon, lat, rsmi=897)[1][0]
+                nxt = swe.rise_trans(cur + 1.15741e-05, 1, lon, lat, rsmi=897)[1][0]
                 if i < 30 or i == 30 and nxt < self.moon_j[31]:
                     self.moon_j[i] = nxt
                     if self.moon_j[i-1] < self.jul_day < nxt:
